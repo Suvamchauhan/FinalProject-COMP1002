@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+<header class="wide-banner">
+    <div class="wrapper">
+        <nav class="navigate">
+            <ul>
+                <li>
+                    <a href="./">Home</a>
+                </li>
+
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./game.html">Game</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+
+</header>
+
+<div class="wrapper">
+
+    <main>
+        <section>
+            <div class="game-box">
+                <form method="post">
+                    <h1 class="Top-header">Number Guessing Game</h1>
+                    <label for="user-input">Guess a number from 1-10:</label><br>
+                    <input type="number" id="user-input" autofocus max="10" min="1">
+                    <input type="submit" value="Guess" onclick="runGame()"><br>
+                    <input id="tries" value="Tries: 1" disabled>
+                </form>
+        </section>
+
+        <section class="Game-page">
+            <figure>
+                <img src="./pexels-ekaterina-bolovtsova-6192326.jpg" alt="A picture of brain and bulb."><br>
+                <cite>
+                    Source: <a href="https://www.pexels.com/@ekaterina-bolovtsova/"> Ekaterina Bolovtsova-Pexels</a>
+                </cite>
+            </figure>
+        </section>
+    </main>
+</div>
+<script src="./game.js">
+</script>
+<footer class="wide-banner footer">
+    <div class="wrapper">
+        <p>&copy;2022 Suvam Chauhan(200511405)</p>
+
+    </div>
+</footer>
+
+
+</html>
+</body>
+</html>
